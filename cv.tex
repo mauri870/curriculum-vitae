@@ -1,0 +1,62 @@
+% !TeX program = xelatex
+% I made some modifications based on this template: 
+%	https://github.com/Roald87/xelatex-cv-roald
+% Thanks Roald87 for the awesome work!
+\documentclass[]{cv-mauri}
+
+\pagestyle{empty} % to remove the page numbers
+
+\begin{document}
+
+% This is the header of the first page, which contains your name and contact details. 
+% \sep inserts a | between items. 
+% You can use FontAwesome icons and use \FAspace after a font awesome icon to insert a predefined horizontal space after a font awesome icon.
+\header{Mauri de Souza Nunes}{}{
+	\faMapMarker \hspace{\FAspace} Brazil
+}{
+	\faMobile 
+	\hspace{\FAspace} +55 54 981189792 \sep 
+	\faEnvelope \hspace{\FAspace} \href{mailto:mauri870@gmail.com}{mauri870@gmail.com} \sep 
+	\faLinkedinSquare \hspace{\FAspace} \href{http://linkedin.com/in/mauri870}{linkedin.com/in/mauri870} \sep
+	\faGithub \hspace{\FAspace} \href{http://github.com/mauri870}{github.com/mauri870}
+}
+
+\textit{Work hard to make things happen}
+
+\section*{education}
+% Use tabularcv environment to make a two column environment, left one for dates, right one for details of your education for example. 
+% You can use the command \worktitle{Study name/Job title}{Location}.
+% You can use the environment tabitemize to make a bulletpoint list inside the tabularcv environment.
+\begin{tabularcv}
+    2016-2018   &   \worktitle{Analysis and Systems Development}{FTEC(BR)}
+                    \\[\vspacepar] % Start new row with this
+    2013-2014   &   \worktitle{Minor CS Incomplete}{FTEC(BR)}
+\end{tabularcv}
+
+\section*{work}
+\begin{tabularcv}
+    2016-Actual   &   \worktitle{Software engineer}{FluxoTI}
+                    \newline Working with Go, Laravel and Deep Learning with Tensorflow
+                    \\[\vspacepar]
+    2015-2016   &   \worktitle{Developer}{Digital Serra}
+                    \newline Programming in PHP/Laravel
+                    \\[\vspacepar]
+	2014-2015   &   \worktitle{IT Assistant}{Brazilian Army}
+\end{tabularcv}
+
+\section*{software skills}
+I've learn a lot in my spare time: Python, Go, PHP, C, Tensorflow, Docker, Laravel, Electron
+
+You can find some of my projects on \href{http://github.com/mauri870}{\color{maincolor}{github}}
+
+Operating systems: Linux
+
+\section*{languages}
+\begin{tabularcv}
+    Portuguese\\[\vspacepar]
+    English
+\end{tabularcv}
+
+\section*{interests}
+Fields of Deep Learning, Computer Vision, Network and Web Programming
+\end{document}
