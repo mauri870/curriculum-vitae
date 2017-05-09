@@ -1,6 +1,6 @@
 ### CV
 
-Hi, this is my cv and you can build a pdf running the following command:
+Hi, this is my cv. You can build a pdf running the following command:
 
 ```bash
 sudo apt update && sudo apt install texlive-xetex
