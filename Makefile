@@ -8,5 +8,8 @@ build:
 tectonic:
 	tectonic cv.tex
 
+watch:
+	find -name 'cv.*' -type f | entr make build
+
 clean:
 	@rm cv.{aux,bbl,blg,log,out,pdf,synctex.gz} texput.log ||:
