@@ -36,7 +36,7 @@
     Path = Fonts/}
 \RequirePackage{fontawesome} % Load cool icons, such as the linked in logo
 \RequirePackage{calc} % To calculate lengths, for example the skip after the header
-\RequirePackage{tabularx} % For tables
+\RequirePackage{ltablex} % For tables
 \RequirePackage{enumitem} %Reduce spacing between items
 \setlist{parsep=1 pt, topsep=1 pt} % Change item separation of lists globally
 \RequirePackage{parskip} % To change \parindent and \parskip
@@ -126,6 +126,11 @@
 % --------------------------------- %
 % 			ENVIRONMENTS			%
 % --------------------------------- %
+% Patch for ltablex throwing an erro in tabularcv
+\patchcmd{\TX@endtabularx}
+  {\end{tabularx}}
+  {\endtabularx\endgroup}
+  {}{}
 % New environment with two columns, one narrow one on the left dates and what was done during that period in the right wider column
 \newenvironment{tabularcv}{
 	\tabularx{\textwidth}{@{}>{\raggedright\arraybackslash}p{\LeftColBody}@{}>{\raggedright\arraybackslash}p{\RightColBody}}}{
