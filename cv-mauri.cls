@@ -7,7 +7,7 @@
 % --------------------------------- %
 % Size of the margin
 \newlength{\margin}
-\setlength{\margin}{25mm}
+\setlength{\margin}{15mm}
 % Size of the left column
 \newlength{\leftcol}
 \setlength{\leftcol}{0.22\paperwidth}
