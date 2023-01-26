@@ -3,10 +3,10 @@
 all: build
 
 build:
-	xelatex -synctex=1 -interaction=nonstopmode cv.tex
-
-tectonic:
 	tectonic cv.tex
+
+xelatex:
+	xelatex -synctex=1 -interaction=nonstopmode cv.tex
 
 watch:
 	find -name 'cv.*' -type f | entr make tectonic

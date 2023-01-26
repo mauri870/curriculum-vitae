@@ -2,15 +2,10 @@
 
 Hi, this is my cv. You can build a pdf running the following command:
 
-```bash
-sudo apt update && sudo apt install texlive-xetex
-make
-```
+> Requires [tectonic](https://tectonic-typesetting.github.io)
 
-On Arch I prefer to use tectonic:
 ```
-yaourt -S tectonic
-make tectonic
+make
 ```
 
 You can also view the resulting pdf on my [website](https://mauri870.github.io)
