@@ -21,8 +21,8 @@
 \newlength{\hspaddress}
 \setlength{\hspaddress}{1em}
 % Horizontal space after font awesome icons
-\newlength{\FAspace}
-\setlength{\FAspace}{0.2em}
+\newlength{\HSpacing}
+\setlength{\HSpacing}{0.2em}
 
 % --------------------------------- %
 %	 			PACKAGES 			%
@@ -34,7 +34,7 @@
 \RequirePackage[margin= \margin]{geometry} % Adjust the margins of a page
 \defaultfontfeatures{ % Important to add, else fontawesome will not work with XeLaTeX 
     Path = Fonts/}
-\RequirePackage{fontawesome} % Load cool icons, such as the linked in logo
+\RequirePackage{fontawesome5} % Load cool icons, such as the linked in logo
 \RequirePackage{calc} % To calculate lengths, for example the skip after the header
 \RequirePackage{ltablex} % For tables
 \RequirePackage{enumitem} %Reduce spacing between items
