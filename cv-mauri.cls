@@ -75,6 +75,9 @@
     BoldFont = *-SemiBold,
     ]        
 
+\newfontfamily{\FAS}[Path = Fonts/]{FontAwesome6Free-Regular-400.otf}
+\newfontfamily{\FAB}[Path = Fonts/]{FontAwesome6Brands-Regular-400.otf}
+
 % --------------------------------- %
 %	 			COLORS	 			%
 % --------------------------------- %
