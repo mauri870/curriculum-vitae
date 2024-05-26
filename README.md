@@ -10,4 +10,4 @@ Hi, this is my cv. You can build a pdf running the following command:
 make
 ```
 
-You can also view the resulting pdf on my [website](https://mauri870.github.io)
+You can also view the resulting pdf on my [website](https://mauri870.com)
