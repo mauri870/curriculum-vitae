@@ -1,5 +1,5 @@
 % !TeX program = xelatex
-% I made some modifications based on this template: 
+% I made some modifications based on this template:
 %	https://github.com/Roald87/xelatex-cv-roald
 % Thanks Roald87 for the awesome work!
 \documentclass[]{cv-mauri}
@@ -8,83 +8,44 @@
 
 \begin{document}
 
-% This is the header of the first page, which contains your name and contact details. 
-% \sep inserts a | between items. 
+% This is the header of the first page, which contains your name and contact details.
+% \sep inserts a | between items.
 % You can use FontAwesome icons and use \FAspace after a font awesome icon to insert a predefined horizontal space after a font awesome icon.
 \header{Mauri de Souza Meneguzzo}{}{
 	\hspace{\HSpacing} \Large Senior Software Engineer
 	% \faMapMarker \hspace{\HSpacing} Remote, Brazil
 }{
 	% \faMobile \hspace{\FAspace} +01 02 0303030303
-	% \sep 
-	\faEnvelope \hspace{\HSpacing} \href{mailto:mauri870@gmail.com}{mauri870@gmail.com} 
-	\sep 
-	\faLinkedin \hspace{\HSpacing} \href{http://linkedin.com/in/mauri870}{linkedin.com/in/mauri870} 
+	% \sep
+	\faEnvelope \hspace{\HSpacing} \href{mailto:mauri870@gmail.com}{mauri870@gmail.com}
+	\sep
+	\faLinkedin \hspace{\HSpacing} \href{http://linkedin.com/in/mauri870}{linkedin.com/in/mauri870}
 	\sep
 	\faGithub \hspace{\HSpacing} \href{http://github.com/mauri870}{github.com/mauri870}
 	\sep
 	\faGlobeAmericas \hspace{\HSpacing} \href{https://mauri870.com}{mauri870.com}
 }
 
-\section*{education}
-% Use tabularcv environment to make a two column environment, left one for dates, right one for details of your education for example. 
-% You can use the command \worktitle{Study name/Job title}{Location}.
-% You can use the environment tabitemize to make a bulletpoint list inside the tabularcv environment.
-\begin{tabularcv}
-	% 2023-present   &   \worktitle{Specialization in Cybersecurity}{Uninter, Brazil}
-    %                 \\[\vspacepar] % Start new row with this
-	2023-present   &   \worktitle{Dual Specialization in Data Science and AI, Cybersecurity}{Uninter, Brazil}
-					% \newline Related coursework:
-					% \begin{itemize}
-						% \item Fundamentals of Neuroscience Program (ongoing) - \textit{Harvard, EdX}
-						% \item Integrative Neuroscience - \textit{UFRGS}
-						% \item Neurology of Learning - \textit{IFSUL}
-						% \item Sentiment Analysis and introduction to Natural Language Processing - \textit{UFRGS}
-						% \item Introduction to Software Simulation in Combat and Armored Warfare, IV - VI Edition- \textit{UFRGS, Brazilian Army)}
-					% \end{itemize} 
-                    \\[\vspacepar] % Start new row with this
-    2017-2021   &   \worktitle{BTech in Information Technology with a focus on Systems Analysis and Design}{Uniftec, Brazil}
-					% \newline Related coursework:
-					% \begin{itemize}
-					% \end{itemize} 
-                    \\[\vspacepar] % Start new row with this
-	% 2013-2014   &   \worktitle{Incomplete Bachelor of Technology in Internet Systems Engineering}{Pronatec program, Brazil (interrupted due to mandatory military service)}
-\end{tabularcv}
-
-\section*{Projects}
-\begin{tabularcv}
-	{\Huge \color[HTML]{76E1FE} \FAB \char"E40F} & 
-
-		As an official member of the Go open source team, I have made substantial contributions to the language and ecosystem.
-
-		My work spans across multiple areas of the Go language, including the runtime, standard library, and toolchain. I also contribute to other parts of the project, like the build system and \textit{golang.org/x} repositories.
-
-		I was nominated for a Google Open Source award in 2024 for my contributions to golang/go.
-		A detailed record of my contributions can be found \color{maincolor}\href{https://go-review.googlesource.com/q/author:mauri870@gmail.com}{here}.
-\end{tabularcv}
-
-\begin{tabularcv}
-	\includegraphics[scale=1.5]{images/k8s.png} & 
-
-	As a contributor to the Kubernetes project, I have engaged with the community to help advance the project's development.
-	
-	My contributions include fixing bugs, improving documentation, and participating in discussions to support feature development. 
-	
-	I collaborate with other contributors to ensure high-quality code and reliable performance, helping to maintain Kubernetes' position as a leading tool for cloud-native applications. Through these contributions, I have developed a strong understanding of Kubernetes and its core components.
-
-	Additionally, I assist in triaging bugs and reports from the Kubernetes team and related cloud projects into the Go Issue Tracker.
-\end{tabularcv}
-
 \section*{work}
 \begin{tabularcv}
-	2022 - ongoing   &   \worktitle{Full Stack Software Engineer}{Meisterwerk}
+	2024 - ongoing   &   \worktitle{OTel / Senior Software Engineer}{Elastic}
+				\textbf{\textit{Remote / Full-time}}
+
+		\begin{itemize}
+			\item Part of the Observability team, enhanced observability in Elastic products.
+			\item Developed Elastic Agent, Integrations, and Beats enhancements.
+			\item Drove the usage of OpenTelemetry APIs and improvements to Elastic's OTel Collector Distribution.
+			\item Hands-on experience with the ELK Stack (Elasticsearch, Logstash, Kibana), gained through daily work and specialized training.
+		\end{itemize}
+				\\[\vspacepar]
+	2022 - 2024   &   \worktitle{Full Stack Software Engineer}{Meisterwerk}
 					\textbf{\textit{Remote / Full-time / Germany}}
 
 			\begin{itemize}
 				\item Collaborated with cross-functional teams to deliver high-quality software solutions that meet business and user requirements.
 				\item Provided guidance and mentorship to the engineering team on best practices and standards.
 				\item Designed and implemented HTTP and gRPC microservices using Golang, ensuring security, scalability, and maintainability of the system.
-				\item Debugging and profiling techniques using tools such as Delve and pprof, finding memory and cpu bottlenecks. 
+				\item Debugging and profiling techniques using tools such as Delve and pprof, finding memory and cpu bottlenecks.
 				\item Improved app build times by 64\% by leveraging caching and parallelization.
 				\item Exploratory Data Analysis and visualization using Python and Pandas.
 				\item Implemented automated vulnerability scanning and static code analysis in CI/CD pipelines.
@@ -95,7 +56,7 @@
 	% 				\textbf{\textit{Remote / Full-time / USA}}
 
 	% 		\begin{itemize}
-	% 			\item Software development using the Laravel Framework 
+	% 			\item Software development using the Laravel Framework
 	% 		\end{itemize}
 	% 				\\[\vspacepar]
 	2021-2022   &   \worktitle{Associate / Full Stack Software Engineer}{Bucks App / Startup (finance)}
@@ -108,21 +69,15 @@
 				\item Mobile app development with React Native
 			\end{itemize}
 					\\[\vspacepar]
-	
-    2019-2021   &   \worktitle{CTO / Lead Software Engineer}{3CPLUS - SAAS (communications)}
+
+    2016-2021   &   \worktitle{CTO / Lead Software Engineer}{3CPLUS - SAAS (communications)}
                     \textbf{\textit{Remote / Full-time}}
             \begin{itemize}
             	\item Managing a team of 6 engineers, company achieved a MRR growth of 120\% in 2020.
             	\item Scaled a realtime system to handle thousands of concurrent users and millions of events per day.
             	\item Modeled a reliable ingestion system for a PowerBI data lake.
             	\item Independently built a open-source Kubernetes Health Check operator for automated status dashboards.
-            	\item Improved AI projects with Tensorflow 2 and state-of-the-art techniques, resulting in a 10x speedup in inference and a 20x reduction in resource usage. 
-            \end{itemize}
-                    \\[\vspacepar]
-
-    2016-2019   &   \worktitle{Full Stack Software engineer}{3CPLUS - SAAS (communications)}
-		    		\textbf{\textit{Remote / Full-time}}
-		    \begin{itemize}
+            	\item Improved AI projects with Tensorflow 2 and state-of-the-art techniques, resulting in a 10x speedup in inference and a 20x reduction in resource usage.
 		    	\item Led a team of engineers on the project migration to GCP and Kubernetes.
 		    	\item Adapted and extended all parts of the system to work in a distributed architecture, scalable horizontally.
 		    	\item Developed REST, GRPC and Websocket APIs in Go, NodeJS and PHP.
@@ -138,7 +93,7 @@
             \begin{itemize}
                   	\item Web applications using PHP/Laravel and VueJS.
             \end{itemize}
-                    
+
                     \\[\vspacepar]
 	2014-2015   &   \worktitle{IT Assistant, Private Rank}{6th Comms Bn of the 6th Div, Brazilian Army}
 					\textbf{\textit{Onsite / Full-time}}
@@ -148,6 +103,46 @@
 				\item Collaborated on the development of a real-time dashboard system for the command center.
 				\item Signal Corps, went to army reserve with a honorable mention.
 			\end{itemize}
+\end{tabularcv}
+
+\section*{Projects}
+\begin{tabularcv}
+	{\Huge \color[HTML]{76E1FE} \FAB \char"E40F} &
+
+		As an official member of the Go open source team, I have made substantial contributions to the language and ecosystem.
+		I was nominated for a Google Open Source award in 2024 for my contributions to golang/go.
+	\\
+	\includegraphics[scale=1.5]{images/k8s.png} &
+
+	As a contributor and member of the Kubernetes project, I actively
+	engage with the community to advance its development by fixing bugs,
+	improving documentation, and participating in discussions to support
+	feature development.
+\end{tabularcv}
+
+\section*{education}
+% Use tabularcv environment to make a two column environment, left one for dates, right one for details of your education for example.
+% You can use the command \worktitle{Study name/Job title}{Location}.
+% You can use the environment tabitemize to make a bulletpoint list inside the tabularcv environment.
+\begin{tabularcv}
+	2024-present	&   \worktitle{Postgraduate Specialization in Cybersecurity and Defense}{Uninter, Brazil}
+					\\[\vspacepar]
+	2023-2024   	&   \worktitle{Postgraduate Specialization in Data Science and AI}{Uninter, Brazil}
+					\newline Related coursework:
+					\begin{itemize}
+						\item Fundamentals of Neuroscience Program - \textit{Harvard, EdX}
+						\item Integrative Neuroscience - \textit{UFRGS}
+						\item Neurology of Learning - \textit{IFSUL}
+						\item Sentiment Analysis and introduction to Natural Language Processing - \textit{UFRGS}
+					\end{itemize}
+                    \\[\vspacepar] % Start new row with this
+    2017-2021   &   \worktitle{BTech in IT with a focus on Systems Analysis and Design}{Uniftec, Brazil}
+					\newline Related coursework:
+					\begin{itemize}
+						\item Introduction to Software Simulation in Combat and Armored Warfare, IV - VI Edition- \textit{UFRGS, Brazilian Army}
+						\item Linux for Developers, Git and Github, Amazon Web Services
+					\end{itemize}
+                    \\[\vspacepar] % Start new row with this
 \end{tabularcv}
 
 \section*{languages}
