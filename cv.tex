@@ -13,10 +13,7 @@
 % You can use FontAwesome icons and use \FAspace after a font awesome icon to insert a predefined horizontal space after a font awesome icon.
 \header{Mauri de Souza Meneguzzo}{}{
 	\hspace{\HSpacing} \Large Senior Software Engineer
-	% \faMapMarker \hspace{\HSpacing} Remote, Brazil
 }{
-	% \faMobile \hspace{\FAspace} +01 02 0303030303
-	% \sep
 	\faEnvelope \hspace{\HSpacing} \href{mailto:mauri870@gmail.com}{mauri870@gmail.com}
 	\sep
 	\faLinkedin \hspace{\HSpacing} \href{http://linkedin.com/in/mauri870}{linkedin.com/in/mauri870}
@@ -26,127 +23,70 @@
 	\faGlobeAmericas \hspace{\HSpacing} \href{https://mauri870.com}{mauri870.com}
 }
 
+\section*{open source \& community}
+\begin{itemize}
+	\item \textbf{Go} — Contributor and codeowner in the Go project, covering the language runtime, compiler, assembler and ecosystem. Awarded the 2024 Google Open Source Peer Bonus.
+	\item \textbf{OpenTelemetry} — Contributor focused on elasticsearchexporter and contrib. Nominated Top Contributor at KubeCon EU 2025.
+	\item \textbf{Kubernetes} — Contributor through bug fixes, documentation improvements and feature discussions.
+	\item \textbf{Elastic} — Open source contributor to Elastic Agent, Beats and related ingest tooling; most work is publicly available upstream.
+\end{itemize}
+
 \section*{work}
 \begin{tabularcv}
 	2024 - ongoing   &   \worktitle{Senior Software Engineer, OpenTelemetry}{Elastic}
 				\textbf{\textit{Remote / Full-time}}
 
 		\begin{itemize}
-			\item Part of the Ingest Data Plane team, enhanced observability in Elastic products.
-			\item Developed Elastic Agent, Integrations, and Beats enhancements.
-			\item Strong focus on open source and collaboration; most of my work is publicly available.
-			\item Drove the usage of OpenTelemetry APIs and improvements to EDOT (Elastic's OpenTelemetry Collector).
-			\item Contributed to the integration of an OpenTelemetry Collector within Elastic Agent, with the end goal of making it the default operation mode.
-			\item Participated in the migration of standalone Beats to be OpenTelemetry Receivers.
-			\item Elastic Agent in OTel mode achieved a consistent 50\% memory reduction and significant CPU savings across use cases by running Elastic Agent in OpenTelemetry mode, outperforming the previous implementation.
-			\item Contributed to the OpenTelemetry project, focusing on the elasticsearchexporter and the contrib repository.
-			\item Hands-on experience with the ELK Stack (Elasticsearch, Logstash, Kibana), gained through daily work and specialized training.
-			\item Collaborated closely with cross-functional teams to ensure seamless OpenTelemetry integration across Elastic's ecosystem.
-			\item Participated in the Support Dev Rotation, triaging complex bugs, addressing security vulnerabilities, and supporting escalated customer issues.
+			\item Member of the Ingest Data Plane team working on Elastic Agent, Beats and OpenTelemetry.
+			\item Led performance work that reduced Elastic Agent memory usage by up to 50\% and significantly lowered CPU consumption when operating in OpenTelemetry mode.
+			\item Drove adoption of OpenTelemetry across Elastic products, including EDOT and Elastic Agent integrations.
+			\item Contributed to the migration of Beats toward OpenTelemetry receivers and helped integrate the OpenTelemetry Collector into Elastic Agent.
+			\item Upstream contributor to OpenTelemetry, particularly elasticsearchexporter and contrib.
+			\item Participated in support rotations, resolving complex production issues, security vulnerabilities and customer escalations.
 		\end{itemize}
 				\\[\vspacepar]
 	2022 - 2024   &   \worktitle{Full Stack Software Engineer}{Meisterwerk}
 					\textbf{\textit{Remote / Full-time / Germany}}
 
 			\begin{itemize}
-				\item Collaborated with cross-functional teams to deliver high-quality software solutions that meet business and user requirements.
-				\item Provided guidance and mentorship to the engineering team on best practices and standards.
-				\item Designed and implemented HTTP and gRPC microservices using Golang, ensuring security, scalability, and maintainability of the system.
-				\item Debugging and profiling techniques using tools such as Delve and pprof, finding memory and cpu bottlenecks.
-				\item Improved app build times by 64\% by leveraging caching and parallelization.
-				\item Exploratory Data Analysis and visualization using Python and Pandas.
-				\item Implemented automated vulnerability scanning and static code analysis in CI/CD pipelines.
-				\item Maintained a mobile app using React Native.
+				\item Designed and implemented Go-based HTTP and gRPC microservices serving production workloads.
+				\item Improved application build times by 64\% through caching and parallelization strategies.
+				\item Led performance investigations using pprof and Delve, eliminating CPU and memory bottlenecks.
+				\item Introduced automated security scanning and static analysis across CI/CD pipelines.
+				\item Mentored engineers and established development best practices.
 			\end{itemize}
 					\\[\vspacepar]
-	% 2022   &   \worktitle{Full Stack Software Engineer}{Watchcrunch}
-	% 				\textbf{\textit{Remote / Full-time / USA}}
-
-	% 		\begin{itemize}
-	% 			\item Software development using the Laravel Framework
-	% 		\end{itemize}
-	% 				\\[\vspacepar]
 	2021-2022   &   \worktitle{Associate / Full Stack Software Engineer}{Bucks App / Startup (finance)}
 					\textbf{\textit{Remote / Full-time / USA}}
 
 			\begin{itemize}
-				\item Entered Mercury Raise Round IV for startups.
-				\item Developed secure Go and NodeJS systems on AWS, integrated with financial solutions.
+				\item Developed secure Go and Node.js systems on AWS, integrated with financial solutions.
 				\item Implemented cryptographically secure systems to ensure data integrity and confidentiality.
-				\item Mobile app development with React Native
 			\end{itemize}
 					\\[\vspacepar]
 
     2016-2021   &   \worktitle{CTO / Lead Software Engineer}{3CPLUS - SAAS (communications)}
                     \textbf{\textit{Remote / Full-time}}
             \begin{itemize}
-            	\item Managing a team of 6 engineers, company achieved a MRR growth of 120\% in 2020.
-            	\item Scaled a realtime system to handle thousands of concurrent users and millions of events per day.
-            	\item Modeled a reliable ingestion system for a PowerBI data lake.
-            	\item Independently built an open-source Kubernetes Health Check operator for automated status dashboards.
-            	\item Improved AI projects with Tensorflow 2 and state-of-the-art techniques, resulting in a 10x speedup in inference and a 20x reduction in resource usage.
-		    	\item Led a team of engineers on the project migration to GCP and Kubernetes.
-		    	\item Adapted and extended all parts of the system to work in a distributed architecture, scalable horizontally.
-		    	\item Developed REST, GRPC and Websocket APIs in Go, NodeJS and PHP.
-		    	\item Developed Asterisk PABX modules in Rust/C to optimize telephony routines.
-		    	\item Software and API documentation with OpenAPI and PlantUML.
-		    	\item Continuous Integration and Delivery with Gitlab, automated builds and deploys with zero downtime.
-		    	\item Research on Deep Learning for mailbox detection resulted in a 70\% increase in accuracy.
-		    	\item Developed an event broker to serve high-throughput events through different real-time protocols.
+            	\item Led a team of 6 engineers; company achieved 120\% MRR growth in 2020.
+            	\item Scaled real-time systems serving thousands of concurrent users and millions of events daily.
+            	\item Led migration to Kubernetes and GCP, enabling horizontal scalability across the platform.
+            	\item Designed distributed ingestion and event-processing systems powering analytics and reporting workloads.
+            	\item Improved ML inference workloads by 10x while reducing infrastructure requirements by 20x.
+            	\item Developed high-performance services in Go, Rust, C, PHP and Node.js, including Asterisk PABX modules.
 			\end{itemize}
 
 		    \\[\vspacepar]
-    2015-2016   &   \worktitle{Software Developer}{Freelancer}
-            \begin{itemize}
-                  	\item Web applications using PHP/Laravel and VueJS.
-            \end{itemize}
-
-                    \\[\vspacepar]
 	2014-2015   &   \worktitle{IT Assistant, Private Rank}{6th Comms Bn of the 6th Div, Brazilian Army}
 					\textbf{\textit{Onsite / Full-time}}
 
 			\begin{itemize}
 				\item Linux server administration, network management, and IT support.
-				\item Collaborated on the development of a real-time dashboard system for the command center.
-				\item Signal Corps, went to army reserve with a honorable mention.
+				\item Signal Corps, went to army reserve with an honorable mention.
 			\end{itemize}
 \end{tabularcv}
 
-\section*{Projects}
-\begin{tabularcv}
-	{\Huge \color[HTML]{76E1FE} \FAB \char"E40F} &
-
-	As a member of the Go project, I've made substantial contributions to the language, runtime and ecosystem.
-	I was awarded the 2024 Google Open Source Peer Bonus for my work on the Go project.
-	\\
-	\includegraphics[scale=1.5]{images/k8s.png} &
-
-	As a member of the Kubernetes project, I actively engage with the community to advance its
-	development by fixing bugs, improving documentation, and participating in discussions to support
-	feature development.
-
-	\\
-	\includegraphics[scale=0.35]{images/opentelemetry.png} &
-
-	As a member of the OpenTelemetry project, I have helped to improve the quality and
-	performance of the project by fixing bugs and adding new features. My main focus has been
-	on the elasticsearchexporter and the contrib repository. I was nominated Top Contributor at KubeCon EU 2025.
-
-	\\
-	\includegraphics[scale=0.20]{images/elastic.png} &
-
-	At Elastic, I was part of a small “skunk works” team focused on experimental projects, including
-	EDOT (Elastic Agent as an OpenTelemetry Collector), the migration of Beats to OpenTelemetry receivers,
-	and contributions to the OpenTelemetry ecosystem to help guide and advance it as the industry standard
-	for observability. This work helped shape the future of observability and ensure Elastic's solutions
-	remain relevant moving forward.
-
-\end{tabularcv}
-
 \section*{education}
-% Use tabularcv environment to make a two column environment, left one for dates, right one for details of your education for example.
-% You can use the command \worktitle{Study name/Job title}{Location}.
-% You can use the environment tabitemize to make a bulletpoint list inside the tabularcv environment.
 \begin{tabularcv}
 	2024-2025	&   \worktitle{Postgraduate Specialization in Cybersecurity and Defense}{Uninter, Brazil}
 					\begin{itemize}
@@ -154,16 +94,9 @@
 					\end{itemize}
 					\\[\vspacepar]
 	2023-2024   	&   \worktitle{Postgraduate Specialization in Data Science and AI}{Uninter, Brazil}
-					\newline Related coursework:
-					\begin{itemize}
-						\item Fundamentals of Neuroscience Program - \textit{Harvard, EdX}
-						\item Integrative Neuroscience - \textit{UFRGS}
-						\item Neurology of Learning - \textit{IFSUL}
-						\item Sentiment Analysis and introduction to Natural Language Processing - \textit{UFRGS}
-					\end{itemize}
-                    \\[\vspacepar] % Start new row with this
+					\\[\vspacepar]
     2017-2021   &   \worktitle{BTech in IT with a focus on Systems Analysis and Design}{Uniftec, Brazil}
-                    \\[\vspacepar] % Start new row with this
+                    \\[\vspacepar]
 \end{tabularcv}
 
 \section*{languages}
@@ -174,17 +107,10 @@
 
 \section*{skills}
 \begin{tabularcv}
-	\textbf{Techs:} & Golang, Rust, PHP, Python, TypeScript/JS, C, Bash \\
-	\textbf{Fields:} & Distributed Systems, AI, Cloud Computing, Web, Product Management, Cybersecurity \\
-	\textbf{DevOps:} & Docker, Kubernetes, AWS, GCP, Gitlab \\
-	\textbf{Processes:} & JIRA, Monday, Agile, Scrum, Kanban, OKR's \\
+	\textbf{Languages:} & Go, Rust, Python, TypeScript, PHP, C, Bash \\
+	\textbf{Infrastructure:} & Kubernetes, Docker, AWS, GCP, Linux \\
+	\textbf{Distributed Systems:} & Observability, OpenTelemetry, Event Processing, Microservices, High-Performance Systems \\
+	\textbf{Tools:} & Git, GitLab CI/CD, Prometheus, Elasticsearch, Kibana \\
 \end{tabularcv}
 
-
-\vspace{1cm}
-\textit{I propose to consider the question: "Can machines think?"} — Alan Mathison Turing
-
-\textit{Work hard. Dream big. Stay humble.}
-
-%\end{description}
 \end{document}
